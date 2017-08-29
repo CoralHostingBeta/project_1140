@@ -1,0 +1,118 @@
+.md-header-custom {
+  line-height: 20px;
+}
+
+.navHeader {
+  background-color: #333333;
+  height: 50px;
+  text-align: left;
+}
+
+.navTitle {
+    font-size: xx-large;
+    background: -webkit-linear-gradient(-45deg, #eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.navHeader ul {
+    float: right;
+}
+
+.navHeader li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Source Sans Pro',Arial,sans-serif;
+  font-weight: bold;
+}
+
+.navHeader li a:hover:not(.active) {
+  background-color: #333333;
+}
+
+.searchBox {
+  outline: none;
+}
+.searchBox[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.searchBox::-webkit-search-decoration,
+.searchBox::-webkit-search-cancel-button {
+  display: none;
+}
+
+.searchBox[type=search] {
+  background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+  border: solid 1px #ccc;
+  padding: 8px 10px 8px 32px;
+  width: 55px;
+
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+.searchBox[type=search]:focus {
+  width: 130px;
+  background-color: #fff;
+  border-color: #66CC75;
+
+  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+.searchBox:-moz-placeholder {
+  color: #999;
+}
+
+.searchBox::-webkit-input-placeholder {
+  color: #999;
+}
+
+
+.searchBox[type=search] {
+  width: 15px;
+  padding-left: 10px;
+  color: transparent;
+  cursor: pointer;
+}
+
+.searchBox[type=search]:hover {
+  background-color: #fff;
+}
+
+.searchBox[type=search]:focus {
+  width: 130px;
+  padding-left: 32px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+}
+
+.searchBox:-moz-placeholder {
+  color: transparent;
+}
+
+.searchBox::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.header-list {
+    font-size: 16px;
+    font-family: 'Source Sans Pro',Arial,sans-serif;
+    font-weight: bold;
+}
